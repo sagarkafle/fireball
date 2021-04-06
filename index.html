@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <!--====== Title ======-->
     <title>Fireball</title>
     
@@ -587,13 +587,13 @@
                         <h4 class="contact-title pb-10"><i class="lni lni-envelope"></i> Leave <span>A Message.</span></h4>
 <!--                         sadbhavji@gmail.com
  -->
-                        <form id="contact-form" action="mailto:nephopsagar@gmail.com" method="post" enctype="text/plain" >
+                        <form id="contact-form" action="https://mailto:nephopsagar@gmail.com" method="post" enctype="text/plain" >
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-input mt-25">
                                         <label>Name</label>
                                         <div class="input-items default">
-                                            <input name="name" type="text" placeholder="Name">
+                                            <input name="name" type="text" placeholder="Name" required>
                                             <i class="lni lni-user"></i>
                                         </div>
                                     </div> <!-- form input -->
@@ -602,16 +602,16 @@
                                     <div class="form-input mt-25">
                                         <label>Email</label>
                                         <div class="input-items default">
-                                            <input type="email" name="email" placeholder="Email">
+                                            <input type="email" name="email" placeholder="Email" required>
                                             <i class="lni lni-envelope"></i>
                                         </div>
                                     </div> <!-- form input -->
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-input mt-25">
-                                        <label>Massage</label>
+                                        <label>Message</label>
                                         <div class="input-items default">
-                                            <textarea name="massage" placeholder="Massage"></textarea>
+                                            <textarea name="massage" placeholder="Message" required></textarea>
                                             <i class="lni lni-pencil-alt"></i>
                                         </div>
                                     </div> <!-- form input -->
